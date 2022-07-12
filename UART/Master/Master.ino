@@ -29,7 +29,7 @@ void loop() {
     }
     //Serial.println("DATA IN");
   }
-  
+ 
 
   if (Master.RunWork) {
     NumSoftPort = round (millis() / 1000) % 2;
