@@ -29,7 +29,7 @@ void Parser_data(String datas) {
     case ERM: Handler_errors(datas); break;
     case RES: Handler_responses(datas); break;
   }
-  
+ 
 }
 
 void Handler_request(String request){ // обработчик запросов
