@@ -181,5 +181,5 @@ void Values() {
 
   Data_Send = 'T' + String(Tempo) + 'H' + String(Hum) + 'C' + String(val) + "$";
 
-  
+ 
 }
